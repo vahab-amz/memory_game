@@ -1,0 +1,31 @@
+.card{
+    width: 100%;
+    position: relative;
+}
+
+.card img {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 0.5rem;
+}
+
+.card-img{
+    position: absolute;
+    transform: rotateY(90deg);
+    transition: transform 0.3s ;
+}
+
+.card-cover{
+    cursor: pointer;
+    transition: transform 0.3s 0.2s;
+}
+
+.card-flip .card-img{
+    transform: rotateY(0deg);
+    transition-delay: 0.2s;
+}
+
+.card-flip .card-cover{
+    transform: rotateY(90deg);
+    transition-delay: 0s;
+}
