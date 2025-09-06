@@ -45,3 +45,12 @@ MemoryGame/
 │   └── index.css
 ├── package.json
 └── README.md
+```
+
+
+## Screenshots
+
+### Game view
+
+![Game view](public/screenshots/game-view.png)
+![Game view](public/screenshots/game-view2.png)
